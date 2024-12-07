@@ -38,12 +38,23 @@ h1 {
   border-radius: 50px;
   font: 16px;
 }
+.form-container {
+  margin-bottom: 38px;
+  border-radius: 20px;
+  background: white;
+  padding: 15px 38px;
+  box-shadow: rgba(39, 33, 66, 0.4);
+}
 
 form {
-  padding: 38px;
-  background-color: white;
-  border-radius: 20px;
   display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: 12px;
+  opacity: 0.5;
 }
 
 .poem {
@@ -54,6 +65,10 @@ form {
   border-left: 3px solid #537e80;
   box-shadow: rgba(39, 33, 66, 0.4);
   border-radius: 24px;
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
