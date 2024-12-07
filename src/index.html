@@ -7,42 +7,43 @@
     <title>Al Poem</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI French poem</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of French poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Demain, dès l’aube, à l’heure où blanchit la campagne,
-        <br />
-        Je partirai. Vois-tu, je sais que tu m’attends.
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Welcome to the AI French poem</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Demain, dès l’aube, à l’heure où blanchit la campagne,
+          <br />
+          Je partirai. Vois-tu, je sais que tu m’attends.
+        </div>
+      </main>
 
-    <footer>
-      This was coded by<a href="https://github.com/MsAikho/" target="_blank"
-        >Akhona Stuurman</a
-      >
-      and is
-      <a href="https://github.com/MsAikho/Al-Poem-Project" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is <a
-        href="https://app.netlify.com/teams/msaikho/sites"
-        target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
-
+      <footer>
+        This was coded by<a href="https://github.com/MsAikho/" target="_blank"
+          >Akhona Stuurman</a
+        >
+        and is
+        <a href="https://github.com/MsAikho/Al-Poem-Project" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://app.netlify.com/teams/msaikho/sites" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
