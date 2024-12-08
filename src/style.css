@@ -7,7 +7,7 @@ header {
 }
 
 h1 {
-  color: aquamarine;
+  color: #537e80;
   font-size: 36px;
   line-height: 1.5;
   font-weight: 800;
@@ -21,7 +21,7 @@ h1 {
 
 .instruction {
   padding: 16px;
-  border: 1px solid rgba(39, 33, 66, 0.4);
+  border: 1px solid rgba(66, 65, 100, 0.4);
   width: 80%;
   font-size: 14px;
   border-radius: 50px;
@@ -43,7 +43,7 @@ h1 {
   border-radius: 20px;
   background: white;
   padding: 15px 38px;
-  box-shadow: rgba(39, 33, 66, 0.4);
+  box-shadow: rgba(66, 65, 100, 0.4);
 }
 
 form {
@@ -55,6 +55,9 @@ form {
   margin-top: 5px;
   font-size: 12px;
   opacity: 0.5;
+}
+.poem strong {
+  color: #537e80;
 }
 
 .poem {
@@ -69,6 +72,22 @@ form {
 
 .hidden {
   display: none;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 
 footer {
